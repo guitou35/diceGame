@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Jeu de dés</title>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 850px)" href="css/mobile_style.css">
+</head>
+<body>
+<ion-app>
+    <ion-content class="ion-padding ">
+        <ion-grid class=" centre">
+            <ion-row >
+                <ion-col >
+                    <div class="ion-text-center flex_pages">
+                        <div class="justify-items-center ">
+                            <div class="margin">
+                                <h2 class="font_size_3 " id="playerName1"></h2>
+                            </div>
+                            <div>
+                                <ion-icon class="cercle color_red" id="playerActif1"></ion-icon>
+                            </div>
+                        </div>
+                        <p><span id="playerScoreP1" class="font_size_5 color_red"></span></p>
+                        <div class="current">
+                            <div>
+                                Current
+                            </div>
+                            <div id="playerScoreCurrentP1" class="current_score"></div>
+                        </div>
+
+                    </div>
+                </ion-col>
+                <ion-col>
+                    <div class="ion-text-center">
+                        <ion-row class="flex_pages">
+                            <ion-col>
+                                <div id="btnNewGame" class="btn justify-items-center">
+                                    <ion-icon name="add-circle-outline" class="color_red font_size_2"></ion-icon>
+                                   <div> NEW GAME</div>
+                                </div>
+                            </ion-col>
+                            <ion-col>
+                                <div>
+                                    <span id="jetDes"></span>
+                                    <img id="des_1" src="images/des_1.jpg" alt="" class="box_shadow" hidden>
+                                    <img id="des_2" src="images/des_2.jpg" alt="" class="box_shadow" hidden>
+                                    <img id="des_3" src="images/des_3.jpg" alt="" class="box_shadow" hidden>
+                                    <img id="des_4" src="images/des_4.jpg" alt="" class="box_shadow" hidden>
+                                    <img id="des_5" src="images/des_5.jpg" alt="" class="box_shadow" hidden>
+                                    <img id="des_6" src="images/des_6.jpg" alt="" class="box_shadow" hidden>
+                                </div>
+                            </ion-col>
+                            <ion-col>
+                                <div id="btnLancer" class="btn justify-items-center">
+                                    <ion-icon name="sync-outline" class="color_red font_size_2"></ion-icon>
+                                  <div>  ROLL DICE </div>
+                                </div>
+                            </ion-col>
+                            <ion-col>
+                                <div id="btnRecuperer" class="btn justify-items-center">
+                                    <ion-icon name="download-outline" class="color_red font_size_2"></ion-icon>
+                                  <div>  HOLD </div>
+                                </div>
+                            </ion-col>
+                        </ion-row>
+                    </div>
+                </ion-col>
+                <ion-col>
+                    <div class="ion-text-center flex_pages">
+                        <div class="justify-items-center ">
+                            <div class="margin">
+                                <h2 class="font_size_3" id="playerName2"></h2>
+                            </div>
+                            <div>
+                                <ion-icon id="playerActif2" class="cercle" hidden></ion-icon>
+                            </div>
+                        </div>
+                        <p><span id="playerScoreP2" class="font_size_5 color_red"></span></p>
+                        <div class="current">
+                            <div>
+                                Current
+                            </div>
+                            <div id="playerScoreCurrentP2" class="current_score"></div>
+                        </div>
+                    </div>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </ion-content>
+</ion-app>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

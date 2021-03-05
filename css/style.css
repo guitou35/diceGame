@@ -1,0 +1,101 @@
+
+.switch_player{
+    --ion-background-color: #e5e5e5;
+}
+
+body{
+    --ion-font-family: 'Lato', sans-serif!important;
+    font-size: 1.5rem;
+    --ion-background-color: linear-gradient(to right, #EBEAEA 50%, #F5F4F5 50%);
+}
+
+.flex_pages{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60vh;
+}
+
+.cercle{
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 0.55rem;
+    background: #F40404;
+}
+
+.current{
+    background: #F40404;
+    margin: auto;
+    font-size: 1rem;
+    padding: 1.5rem;
+    width: 150px;
+    height: 100px;
+}
+
+.current_score{
+    font-size: 2rem;
+    color: white;
+    padding-top: 0.5rem;
+}
+
+.score{
+    font-size: 5rem;
+}
+
+.color_red{
+    color: #F40404;
+}
+
+.font_size_5{
+    font-size: 5rem;
+}
+
+.font_size_3{
+    font-size: 3rem;
+}
+.font_size_2{
+    font-size: 2rem;
+}
+
+
+.justify-items-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.margin{
+ margin: 1rem;
+}
+
+.border{
+    border: solid;
+    margin: auto;
+}
+
+.btn:hover{
+    color: #F40404;
+    cursor: pointer;
+}
+
+#des{
+    border: solid;
+    color: white;
+    width: 200px;
+    height: 200px;
+}
+
+.box_shadow{
+    box-shadow: 3px 5px 28px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 5px 28px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 5px 28px -1px rgba(0,0,0,0.75);
+}
+
+.my-custom-class{
+    --ion-background-color: white;
+}
+.centre {
+    margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+}
+

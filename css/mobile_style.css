@@ -1,0 +1,10 @@
+.font_size_3{
+    font-size: 1.5rem;
+}
+
+.flex_pages{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60vh;
+}
