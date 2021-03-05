@@ -91,8 +91,17 @@ body{
     -moz-box-shadow: 3px 5px 28px -1px rgba(0,0,0,0.75);
 }
 
-.my-custom-class{
+.present_game{
     --ion-background-color: white;
+    --max-width: 60%;
+    --max-heigt: 60%;
+    font-size: 2rem;
+}
+.alert-title.sc-ion-alert-ios{
+    font-size: 2rem;
+}
+.alert-message.sc-ion-alert-ios{
+    font-size: 1.5rem;
 }
 .centre {
     margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */

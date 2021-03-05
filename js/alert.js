@@ -23,12 +23,13 @@ export function presentWinner(playerName) {
 
 export function presentGame(){
     const alert = document.createElement('ion-alert');
-    alert.cssClass = 'my-custom-class';
+    alert.cssClass = 'present_game';
     alert.header = 'Explication du jeu';
     //alert.subHeader = 'Subtitle';
     alert.message = 'Le jeu se déroule entre 2 joueur. <br> Le premier à obtenir 100 points a gagné. <br> ' +
         'Chaque joueur possède un score temporaire (ROUND) et un score global (GLOBAL). <br> ' +
-        'À chaque tour, le joueur a son ROUND initialisé à 0 et peut lancer un dé autant de fois qu\'il le souhaite. Le résultat d’un lancer est ajouté au ROUND.' +
+        'À chaque tour, le joueur a son ROUND initialisé à 0 et peut lancer un dé autant de fois qu\'il le souhaite. <br> ' +
+        'Le résultat d’un lancer est ajouté au ROUND.' +
         '';
     alert.buttons = ['Ok'];
 
