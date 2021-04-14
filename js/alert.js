@@ -29,9 +29,9 @@ export function presentGame(){
     alert.message = 'Le jeu se déroule entre 2 joueur. <br> Le premier à obtenir 100 points a gagné. <br> ' +
         'Chaque joueur possède un score temporaire (ROUND) et un score global (GLOBAL). <br> ' +
         'À chaque tour, le joueur a son ROUND initialisé à 0 et peut lancer un dé autant de fois qu\'il le souhaite. <br> ' +
-        'Le résultat d’un lancer est ajouté au ROUND.' +
+        'Le résultat d’un lancer est ajouté au ROUND. <br>' +
         'ATTENTION : Si vous faites un 1, c\'est au joueur suivant de lancer le dé <br>' +
-        'N\oubliez pas récupérer vos points avant de les perdre';
+        'N\oubliez pas de récupérer vos points avant de les perdre.';
     alert.buttons = ['Ok'];
 
     document.body.appendChild(alert);
