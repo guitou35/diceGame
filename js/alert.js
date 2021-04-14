@@ -30,7 +30,8 @@ export function presentGame(){
         'Chaque joueur possède un score temporaire (ROUND) et un score global (GLOBAL). <br> ' +
         'À chaque tour, le joueur a son ROUND initialisé à 0 et peut lancer un dé autant de fois qu\'il le souhaite. <br> ' +
         'Le résultat d’un lancer est ajouté au ROUND.' +
-        '';
+        'ATTENTION : Si vous faites un 1, c\'est au joueur suivant de lancer le dé <br>' +
+        'N\oubliez pas récupérer vos points avant de les perdre';
     alert.buttons = ['Ok'];
 
     document.body.appendChild(alert);
